@@ -2,7 +2,7 @@
 
 **Header-only lock-free concurrent primitives library in C++17.**
 
-`latch` implements four production-grade concurrency building blocks from first principles, using only `<atomic>` and the C++ memory model — no platform intrinsics beyond the optional `PAUSE`/`YIELD` hint in spin loops.
+`latch` implements four production-grade concurrency building blocks from first principles, using only `<atomic>` and the C++ memory model, no platform intrinsics beyond the optional `PAUSE`/`YIELD` hint in spin loops.
 
 ---
 
